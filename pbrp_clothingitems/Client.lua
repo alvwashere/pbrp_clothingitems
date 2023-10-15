@@ -1,3 +1,7 @@
+RegisterNetEvent('esx:playerLoaded', function(playerData)
+	LocalPlayer.state:set('isLoggedIn', true, true)
+end)
+
 updateClothing = function()
 	local playerPed = PlayerPedId()
 	ESX.TriggerServerCallback('pbrpClothingItems:GetClothes', function(outfitname) 
