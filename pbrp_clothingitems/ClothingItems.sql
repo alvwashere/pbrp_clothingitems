@@ -1,3 +1,3 @@
-ALTER TABLE `players`
+ALTER TABLE `users`
 ADD IF NOT EXISTS `clothes` VARCHAR(60) DEFAULT NULL
 ;
