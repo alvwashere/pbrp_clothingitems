@@ -7,8 +7,8 @@ Config = {
 				c3 = 0, -- Which color variation of c2
 			},
 		},
-		itemName = 'qb_chain1', -- Item name in your database
-		label = 'QB Bling', -- Only used for notification.
+		itemName = 'esx_chain1', -- Item name in your database
+		label = 'ESX Bling', -- Only used for notification.
 	},
 	[2] = { -- Each time you make a new outfit, copy/paste this entire block and make sure the number goes up by one.
 		set = {
@@ -18,8 +18,8 @@ Config = {
 				c3 = 0, -- Which color variation of c2
 			},
 		},
-		itemName = 'qb_chain2', -- Item name in your database
-		label = 'QB Bling', -- Only used for notification.
+		itemName = 'esx_chain2', -- Item name in your database
+		label = 'ESX Bling', -- Only used for notification.
 	},
 	[3] = {
 		set = {
